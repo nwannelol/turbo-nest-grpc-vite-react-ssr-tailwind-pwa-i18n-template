@@ -6,6 +6,7 @@ import { IDENTITY_SERVICE } from './constants';
 import { IDENTITY_PACKAGE_NAME } from '@common/hms-lib';
 import { join } from 'path';
 
+
 @Module({
   imports: [
     ClientsModule.register(
@@ -19,9 +20,13 @@ import { join } from 'path';
             protoPath: join(__dirname, "../../proto/identity.proto")
           }
         }
+        
       ]
-    )
+      
+    ),
+    
   ],
+  
   controllers: [UsersController],
   providers: [UsersService],
 })

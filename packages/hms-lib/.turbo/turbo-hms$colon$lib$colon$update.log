@@ -2,10 +2,9 @@
 > hms:lib:update
 > copyfiles -u 3 ../../hms-apps/google/**/* ../../hms-apps/proto/**/*.ts src/types && npm install
 
-
-up to date, audited 1777 packages in 11s
-
-379 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
+'copyfiles' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! Lifecycle script `hms:lib:update` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: @common/hms-lib 
+npm ERR!   at location: C:\Users\nwann\turbo-nest-grpc-vite-react-ssr-tailwind-pwa-i18n-template\packages\hms-lib 
